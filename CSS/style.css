@@ -1,0 +1,334 @@
+/* start font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+/* end font*/
+
+/* start body*/
+body {
+    /* property*/
+    color:white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    Line-height:1.5em;
+    margin: 0;
+    padding: 0;
+    /*end property*/
+}
+/* end body*/
+
+/* start debug*/
+.bg-blue {
+    background-color: aliceblue;
+}
+.bg-red {
+    background-color: crimson;
+}
+/* end debug*/
+
+/* start container */
+.container {
+    margin:10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+/* end container */
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: #0366d6;
+    text-decoration: none;
+
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+
+}
+/* end Anchor / Hyperlink */
+
+/* start menu primer*/
+.menu-primer ul {
+    background-color:#333333;
+    border-radius: 4px;
+    box-shadow:
+        0 3PX 5PX -1PX rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12),
+
+}
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration-color: none;
+}
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* end menu primer*/
+
+
+/* start heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading*/
+
+/* start jumbotron */
+.jumbotron {
+    background-color: #transparance;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float:left;
+    width: 49,5%;
+}
+.main-home-two {
+    float:right;
+    width: 49%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi, {
+    height: 140px;
+}
+/* end main */
+
+/* start box */
+.box-heading {
+    background-color: #transparance;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: #transparance;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box */
+
+
+/* start menu sekunder */
+.menu-sekunder {
+    background-color: #transparent;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+
+/* end menu sekunder */
+
+/* start copyraight */
+.copyright p {
+    font-size: 15px;
+}
+/* end copyraight */
+
+/* start hp */
+@media (max-width: 480px) {
+    .menu-primer ul {
+        background-color: pink;
+    }
+    .main-home-one {
+        width: 100%;
+    }
+    .main-home-two {
+        width: 100%;
+    }
+}
+/* end hp */
+/* start effect*/
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.snip1491 {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #1A1A1A;
+}
+
+.snip1491 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1491 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1491 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px;
+  background-color: #202123;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.snip1491 h2,
+.snip1491 h3,
+.snip1491 p {
+  margin: 0;
+}
+
+.snip1491 h2,
+.snip1491 h3 {
+  font-family: 'Slabo 27px', serif;
+  line-height: 1.2em;
+}
+
+.snip1491 h2 {
+  font-size: 1.9em;
+  color: #35ADF9;
+}
+
+.snip1491 h3 {
+  color: #EBEBEB;
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.snip1491 p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9em;
+  margin-top: 12px;
+  padding: 12px 0 15px;
+  line-height: 1.5em;
+}
+
+.snip1491 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1491:hover > img,
+.snip1491.hover > img {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.snip1491:hover figcaption,
+.snip1491.hover figcaption {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+/* end effect*/
